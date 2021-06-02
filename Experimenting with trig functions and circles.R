@@ -17,3 +17,10 @@ a<-tan(1/6*pi)
 require("MASS")
 
 fractions(a)
+
+#################################use the answer to reverse to the angle###################################
+
+b<-atan(sqrt(3/3))
+#output here was an mistake, but leads to hypothesis, is next experiment going to be bigger or smaller?
+
+c<-atan(sqrt(3)/3) #c < b
