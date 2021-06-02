@@ -6,4 +6,14 @@ a<-seq(from=0, to= (2*pi), by=pi/10000)
 
 b<-cos(a)^2+sin(a)^2
 
-ggplot(cos(a),sin(a))+geom_point()
+ggplot(aes(cos(a),sin(a)))+geom_point()
+
+##############################tan(30degrees)##############################################################
+
+a<-tan(1/6*pi)
+
+#################################package is necessary to convert to fraction##############################
+
+require("MASS")
+
+fractions(a)
