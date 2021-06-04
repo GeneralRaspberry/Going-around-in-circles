@@ -48,4 +48,10 @@ q1<- degreeconvert(atan(sqrt(3)/3))
 q2<-round(tan(pi),3)
 
 
+###################################Find the angle for the slope############################################
 
+################################Perfect for using atan functionality#######################################
+
+q3<-degreeconvert(atan(1))
+
+q4<-degreeconvert(atan(-1/2))#this output gives a negative degree, which can be possibly converted to the correct 
