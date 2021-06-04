@@ -45,8 +45,7 @@ q1<- degreeconvert(atan(sqrt(3)/3))
 
 #Answer is 30 degrees, which is correct, so the functions work, but the fraction converter isn't very useful
 
-q2<-tan(pi) #Hypothesis is this will be 0
+q2<-round(tan(pi),3)
 
-#Output is not 0, but a tiny number, try using the radconvert instead
 
 
