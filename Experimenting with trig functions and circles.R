@@ -41,11 +41,12 @@ degreeconvert<-function(x){
 
 #####################################estimating the gradient of a line######################################
 
-q1<-tan(radconvert(30))
+q1<- degreeconvert(atan(sqrt(3)/3))
 
-#use mass to estimate the fraction
-fractions(q1)
+#Answer is 30 degrees, which is correct, so the functions work, but the fraction converter isn't very useful
 
-#Answer here is not helpful, so reverse engineer the question using atan
+q2<-tan(pi) #Hypothesis is this will be 0
+
+#Output is not 0, but a tiny number, try using the radconvert instead
 
 
