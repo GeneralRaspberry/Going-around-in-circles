@@ -30,5 +30,11 @@ c<-atan(sqrt(3)/3) #c < b
 radconvert<-function(x){
   a<-(pi/180)*x
   print(paste0((x)," degrees equals ", (a), " radians"))
+  return(a)
 }
 
+degreeconvert<-function(x){
+  a<-(180/pi)*x
+  print(paste0(x," radians equals ",a, " degrees"))
+  return(a)
+}
