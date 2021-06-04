@@ -38,3 +38,14 @@ degreeconvert<-function(x){
   print(paste0(x," radians equals ",a, " degrees"))
   return(a)
 }
+
+#####################################estimating the gradient of a line######################################
+
+q1<-tan(radconvert(30))
+
+#use mass to estimate the fraction
+fractions(q1)
+
+#Answer here is not helpful, so reverse engineer the question using atan
+
+
