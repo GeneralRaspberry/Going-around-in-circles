@@ -24,3 +24,11 @@ b<-atan(sqrt(3/3))
 #output here was an mistake, but leads to hypothesis, is next experiment going to be bigger or smaller?
 
 c<-atan(sqrt(3)/3) #c < b
+
+####################################convert between degrees and radians###############################################################
+
+radconvert<-function(x){
+  a<-(pi/180)*x
+  print(paste0((x)," degrees equals ", (a), " radians"))
+}
+
