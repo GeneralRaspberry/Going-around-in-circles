@@ -54,4 +54,11 @@ q2<-round(tan(pi),3)
 
 q3<-degreeconvert(atan(1))
 
-q4<-degreeconvert(atan(-1/2))#this output gives a negative degree, which can be possibly converted to the correct 
+q4<-180+degreeconvert(atan(-1/2)) 
+
+#This is interesting, because we are effectively saying, if the slope is negative
+#then we need to add 180 degrees to flip
+
+q5<-atan(0)
+
+q6<-degreeconvert(atan(4/3))
